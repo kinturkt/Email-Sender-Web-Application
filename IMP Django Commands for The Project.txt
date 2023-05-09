@@ -1,0 +1,13 @@
+Create VE: python -m venv VE
+
+Start: django-admin startproject project_name
+
+Run: python manage.py runserver
+
+Tables: python manage.py migrate
+
+Username & password: python manage.py createsuperuser
+
+Run the Model: python manage.py makemigrations
+
+Apply Migrations: python manage.py migrate 
